@@ -148,6 +148,12 @@
     <ClCompile Include="jianzhi10.cpp" />
     <ClCompile Include="jianzhi10_2.cpp" />
     <ClCompile Include="jianzhi11.cpp" />
+    <ClCompile Include="jianzhi12.cpp" />
+    <ClCompile Include="jianzhi13.cpp" />
+    <ClCompile Include="jianzhi14_1.cpp" />
+    <ClCompile Include="jianzhi14_2.cpp" />
+    <ClCompile Include="jianzhi15.cpp" />
+    <ClCompile Include="jianzhi16.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,12 +1,14 @@
 #include "thehead.h"
-#include "jianzhi11.cpp"
+#include "jianzhi16.cpp"
 
 int main()
 {
     Solution so;
-    vector<int> a = { 10, 1, 10, 10, 10 };
     
-    cout << so.minArray(a) << endl;
+    vector<int> ans = so.printNumbers(3);
+    for (auto x : ans) {
+        cout << x << " ";
+    }
 
     return 0;
 }
