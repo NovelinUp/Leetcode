@@ -17,7 +17,6 @@ public:
 
     bool isSubStructure(TreeNode* A, TreeNode* B) {
         if (A == nullptr || B == nullptr) return false;
-        if (A->val == B->val) return isSub;
-        return isSubStructure(A->left, B->left) || isSubStructure(A->right, B->right);
+        return isSub(A, B) || isSubStructure(A->left, B) || isSubStructure(A->right, B);
     }
 };

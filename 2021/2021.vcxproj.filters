@@ -63,6 +63,42 @@
     <ClCompile Include="jianzhi16.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="jianzhi18.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi20.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi21.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi22.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi24.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi25.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi26.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi28.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi30.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jianzhi31.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="thehead.h">

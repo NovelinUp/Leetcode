@@ -154,6 +154,18 @@
     <ClCompile Include="jianzhi14_2.cpp" />
     <ClCompile Include="jianzhi15.cpp" />
     <ClCompile Include="jianzhi16.cpp" />
+    <ClCompile Include="jianzhi18.cpp" />
+    <ClCompile Include="jianzhi20.cpp" />
+    <ClCompile Include="jianzhi21.cpp" />
+    <ClCompile Include="jianzhi22.cpp" />
+    <ClCompile Include="jianzhi24.cpp" />
+    <ClCompile Include="jianzhi25.cpp" />
+    <ClCompile Include="jianzhi26.cpp" />
+    <ClCompile Include="jianzhi27.cpp" />
+    <ClCompile Include="jianzhi28.cpp" />
+    <ClCompile Include="jianzhi29.cpp" />
+    <ClCompile Include="jianzhi30.cpp" />
+    <ClCompile Include="jianzhi31.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
