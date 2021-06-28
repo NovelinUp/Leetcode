@@ -1,13 +1,14 @@
 #include "thehead.h"
-#include "jianzhi31.cpp"
+#include "jianzhi38.cpp"
 
 int main()
 {
     Solution so;
-    
-    vector<int> pushed = { 1, 2, 3, 4, 5 };
-    vector<int> popped = { 4, 5, 3, 2 , 1 };
-    if (so.validateStackSequences(pushed, popped)) cout << "OK" << endl;
-    else cout << "not" << endl;
+    string s = "abc";
+    vector<string> ans;
+    ans = so.permutation(s);
+    for (auto str : ans) {
+        cout << str << endl;
+    }
     return 0;
 }
