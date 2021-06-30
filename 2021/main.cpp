@@ -1,14 +1,11 @@
 #include "thehead.h"
-#include "jianzhi38.cpp"
+#include "jianzhi44.cpp"
 
 int main()
 {
     Solution so;
-    string s = "abc";
-    vector<string> ans;
-    ans = so.permutation(s);
-    for (auto str : ans) {
-        cout << str << endl;
-    }
+    cout << so.findNthDigit(34) << endl;
+    
+    
     return 0;
 }

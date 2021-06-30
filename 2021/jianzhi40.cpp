@@ -8,13 +8,11 @@ public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
         this->arr = arr;
         this->k = k;
-        quicksort(0, arr.size() - 1);
-        return ans;
+        if (arr.size() <= k) return arr;
+        return quicksort(0, arr.size() - 1);
     }
 
-    void quicksort(int left, int right) {
-        vector<int> ans;
-        if (left > right) return;
+    vector<int> quicksort(int left, int right) {
         int i = left, j = right;
         while (i < j) {
             while (i < j && arr[j] >= arr[left]) j--;
@@ -22,9 +20,11 @@ public:
             swap(arr[i], arr[j]);
         }
         swap(arr[i], arr[left]);
-        if (i > k) quicksort(left, i - 1);
-        if (i < k) quicksort(i + 1, right);
-        ans.assign(arr.begin(), arr.begin() + k);
-        return;
+        if (i > k) return quicksort(left, i - 1);
+        if (i < k) return quicksort(i + 1, right);
+        for (int i = 0; i < k; i++) {
+            ans.push_back(arr[i]);
+        }
+        return ans;
     }
 };

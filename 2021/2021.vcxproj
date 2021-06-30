@@ -176,6 +176,11 @@
     <ClCompile Include="jianzhi38.cpp" />
     <ClCompile Include="jianzhi39.cpp" />
     <ClCompile Include="jianzhi40.cpp" />
+    <ClCompile Include="jianzhi42.cpp" />
+    <ClCompile Include="jianzhi44.cpp" />
+    <ClCompile Include="jianzhi45.cpp" />
+    <ClCompile Include="jianzhi46.cpp" />
+    <ClCompile Include="jianzhi47.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
