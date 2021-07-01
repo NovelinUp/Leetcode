@@ -1,11 +1,10 @@
 #include "thehead.h"
-#include "jianzhi44.cpp"
+#include "jianzhi53.cpp"
 
 int main()
 {
     Solution so;
-    cout << so.findNthDigit(34) << endl;
-    
-    
+    vector<int> arr = { 5,7,7,8,8,10 };
+    cout << so.search(arr, 6) << endl;  
     return 0;
 }
