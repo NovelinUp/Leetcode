@@ -1,10 +1,10 @@
 #include "thehead.h"
-#include "jianzhi53.cpp"
+#include "jianzhi62.cpp"
 
 int main()
 {
     Solution so;
-    vector<int> arr = { 5,7,7,8,8,10 };
-    cout << so.search(arr, 6) << endl;  
+    //string str = "the sky is blue";
+    cout << so.lastRemaining(5, 3) << endl;
     return 0;
 }
