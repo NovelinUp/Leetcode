@@ -1,10 +1,12 @@
 #include "thehead.h"
-#include "jianzhi62.cpp"
+#include "jianzhi67.cpp"
 
 int main()
 {
     Solution so;
-    //string str = "the sky is blue";
-    cout << so.lastRemaining(5, 3) << endl;
+    //vector<int> arr = { 7,1,4,3,5 };
+    cout << so.strToInt("2147483646") << endl;
+    /*string s1 = "-21";
+    string s2 = "-20";*/
     return 0;
 }

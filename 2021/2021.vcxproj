@@ -116,6 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -200,6 +201,11 @@
     <ClCompile Include="jianzhi60.cpp" />
     <ClCompile Include="jianzhi61.cpp" />
     <ClCompile Include="jianzhi62.cpp" />
+    <ClCompile Include="jianzhi63.cpp" />
+    <ClCompile Include="jianzhi64.cpp" />
+    <ClCompile Include="jianzhi65.cpp" />
+    <ClCompile Include="jianzhi66.cpp" />
+    <ClCompile Include="jianzhi67.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
