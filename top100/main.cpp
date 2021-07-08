@@ -1,5 +1,5 @@
 #include "thehead.h"
-#include "56.cpp"
+#include "139.cpp"
 
 int main()
 {
@@ -13,13 +13,9 @@ int main()
     //     cout << endl;
     // }
 
-    vector<vector<int>> a = {{1, 4}, {4, 5}};
-    auto ans = so.merge(a);
-    for (auto a : ans) {
-        for (auto b : a) {
-            cout << b << " ";
-        }
-        cout << endl;
-    }
+    string s = "leetcode";
+    vector<string> wordDict = {"leet", "code"};
+    auto ans = so.wordBreak(s, wordDict);
+    cout << ans << endl;
     return 0;
 }
